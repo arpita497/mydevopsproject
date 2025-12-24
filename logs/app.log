@@ -1,0 +1,28 @@
+2025-12-24 11:52:45,272 | INFO | Starting Flask application
+2025-12-24 11:52:45,279 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.20.10.11:8000
+2025-12-24 11:52:45,279 | INFO | [33mPress CTRL+C to quit[0m
+2025-12-24 11:53:16,978 | INFO | Health check called
+2025-12-24 11:53:16,979 | INFO | 127.0.0.1 - - [24/Dec/2025 11:53:16] "GET /health HTTP/1.1" 200 -
+2025-12-24 11:53:17,000 | ERROR | Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-12-24 11:53:17,000 | INFO | 127.0.0.1 - - [24/Dec/2025 11:53:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-12-24 11:54:29,367 | INFO | Home endpoint accessed
+2025-12-24 11:54:29,368 | INFO | 127.0.0.1 - - [24/Dec/2025 11:54:29] "GET / HTTP/1.1" 200 -
+2025-12-24 11:54:29,381 | ERROR | Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-12-24 11:54:29,381 | INFO | 127.0.0.1 - - [24/Dec/2025 11:54:29] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2025-12-24 11:54:58,467 | INFO | Home endpoint accessed
+2025-12-24 11:54:58,468 | INFO | 127.0.0.1 - - [24/Dec/2025 11:54:58] "GET / HTTP/1.1" 200 -
+2025-12-24 11:55:00,975 | INFO | Health check called
+2025-12-24 11:55:00,975 | INFO | 127.0.0.1 - - [24/Dec/2025 11:55:00] "GET /health HTTP/1.1" 200 -
+2025-12-24 11:56:52,968 | INFO | Health check called
+2025-12-24 11:56:52,969 | INFO | 127.0.0.1 - - [24/Dec/2025 11:56:52] "GET /health HTTP/1.1" 200 -
+2025-12-24 11:56:53,585 | INFO | Home endpoint accessed
+2025-12-24 11:56:53,586 | INFO | 127.0.0.1 - - [24/Dec/2025 11:56:53] "GET / HTTP/1.1" 200 -
+2025-12-24 11:57:04,280 | INFO | Home endpoint accessed
+2025-12-24 11:57:04,281 | INFO | 127.0.0.1 - - [24/Dec/2025 11:57:04] "GET / HTTP/1.1" 200 -
+2025-12-24 11:57:05,462 | INFO | Health check called
+2025-12-24 11:57:05,462 | INFO | 127.0.0.1 - - [24/Dec/2025 11:57:05] "GET /health HTTP/1.1" 200 -
+2025-12-24 11:57:06,564 | INFO | Health check called
+2025-12-24 11:57:06,565 | INFO | 127.0.0.1 - - [24/Dec/2025 11:57:06] "GET /health HTTP/1.1" 200 -
