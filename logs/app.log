@@ -30,3 +30,14 @@
 2026-01-05 19:18:00,378 | INFO | Starting Flask application
 2026-01-05 19:18:21,145 | INFO | Starting Flask application
 2026-01-05 19:18:51,577 | INFO | Starting Flask application
+2026-01-05 19:30:58,251 | INFO | Starting Flask application
+2026-01-05 19:37:01,075 | INFO | Starting Flask application
+2026-01-05 19:37:01,082 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.1.50:8000
+2026-01-05 19:37:01,082 | INFO | [33mPress CTRL+C to quit[0m
+2026-01-05 19:37:15,664 | INFO | Health check called
+2026-01-05 19:37:15,664 | INFO | 127.0.0.1 - - [05/Jan/2026 19:37:15] "GET /health HTTP/1.1" 200 -
+2026-01-05 19:37:15,708 | ERROR | Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2026-01-05 19:37:15,708 | INFO | 127.0.0.1 - - [05/Jan/2026 19:37:15] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
