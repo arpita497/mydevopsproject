@@ -6,6 +6,10 @@ pipeline {
         ECR_REPO = '<ECR_URI>'
     } */
 
+    tools {
+        sonarQubeScanner 'SonarScanner'
+    }
+
     stages {
 
         stage('Checkout') {
@@ -13,6 +17,24 @@ pipeline {
                 git 'https://github.com/arpita497/mydevopsproject.git'
             }
         }
+
+	stage('SonarQube Analysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh '''
+                    sonar-scanner \
+                    -Dsonar.projectKey=flask-app \
+                    -Dsonar.sources=.
+                    '''
+                }
+            }
+        }
+
+        stage('Quality Gate') {
+            steps {
+                waitForQualityGate abortPipeline: true
+            }
+       
 
         stage('Build Docker Image') {
             steps {
