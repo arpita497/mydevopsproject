@@ -6,11 +6,6 @@ pipeline {
         ECR_REPO = '<ECR_URI>'
     } */
 
-    tools 		{
-    	sonarRunner 'SonarScanner'
-	}
-
-
     stages {
 
         stage('Checkout') {
