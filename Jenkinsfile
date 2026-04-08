@@ -35,7 +35,8 @@ pipeline {
                 waitForQualityGate abortPipeline: true
             }
        
-
+        }
+        
         stage('Build Docker Image') {
             steps {
                 sh 'docker build -t flask-app .'
